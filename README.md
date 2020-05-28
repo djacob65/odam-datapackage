@@ -13,8 +13,8 @@ The ‘datapackage.json’ file can be generated directly from the ODAM API by s
 
 
 ## Frictionless Data Specifications
-http://specs.frictionlessdata.io/
-https://github.com/frictionlessdata/specs/tree/master/schemas
+* http://specs.frictionlessdata.io/
+* https://github.com/frictionlessdata/specs/tree/master/schemas
 
 ## json_validate: Validate a json file
 https://rdrr.io/cran/jsonvalidate/man/json_validate.html
