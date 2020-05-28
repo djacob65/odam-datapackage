@@ -1,5 +1,3 @@
-![Logo](odam-logo.png)
-
 # ODAM data-package based on JSON-Schema
 
 A data package is a simple container format used to describe and package a collection of data. Defining an explicit schema for structural metadata allows machines to better interpret the data for reuse. Thus, when disseminating data, a file named ‘datapackage.json’ by convention can be added to the collection of your data files. This ‘datapackage.json’ file contains all structural metadata along with unambiguous definitions of all internal elements (e.g. column definitions, units of measurement), through links to accessible (standard) definitions.
