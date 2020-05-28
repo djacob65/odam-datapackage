@@ -16,11 +16,12 @@ The ‘datapackage.json’ file can be generated directly from the ODAM API by s
 * http://specs.frictionlessdata.io/
 * https://github.com/frictionlessdata/specs/tree/master/schemas
 
-## json_validate: Validate a json file
-https://rdrr.io/cran/jsonvalidate/man/json_validate.html
 
 
 ## Example of a session under R using a data package
+
+### json_validate: Validate a json file
+* https://rdrr.io/cran/jsonvalidate/man/json_validate.html
 
 ```
 library(httr)
