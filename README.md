@@ -15,8 +15,7 @@ The ‘datapackage.json’ file can be generated directly from the ODAM API by s
 
 This repository is a part of the ODAM project. See https://inrae.github.io/odam-docs/ for more details.
 
-
-![Image of Yaktocat](ODAM-datapackage.png| width=600)
+![](ODAM-datapackage.png | width=600)
 
 ## Frictionless Data Specifications
 * http://specs.frictionlessdata.io/
