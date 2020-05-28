@@ -13,6 +13,10 @@ ODAM data package schema is very close to the 'Frictionless Data' framework.
  
 The ‘datapackage.json’ file can be generated directly from the ODAM API by specifying '/datapackage' at the end of the request. By default, the reference to the data files is relative. To have a URL as reference for the data files, it is necessary to add at the end of the request '?links=1'
 
+This repository is a part of the ODAM project. See https://inrae.github.io/odam-docs/ for more details.
+
+
+![Image of Yaktocat](ODAM-datapackage.png| width=600)
 
 ## Frictionless Data Specifications
 * http://specs.frictionlessdata.io/
