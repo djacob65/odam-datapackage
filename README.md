@@ -11,9 +11,6 @@ ODAM data package schema is very close to the 'Frictionless Data' framework.
  
 The ‘datapackage.json’ file can be generated directly from the ODAM API by specifying '/datapackage' at the end of the request. By default, the reference to the data files is relative. To have a URL as reference for the data files, it is necessary to add at the end of the request '?links=1'
 
-**Tips**: 
- * To view JSON files in a more user-friendly way into your web browser, you should install a JSON Formatter extension/plugin. (e.g 'JSON Formatter' extension for Google Chrome from 'more tools/extensions' menu, 'JSON Formatter' plugin for MS Edge from the Windows Store)
- * If you use the google chrome web browser, you could install with great profit the 'Markdown Preview Plus' extension to view this file formatted by markdown.
 
 ## Frictionless Data Specifications
 http://specs.frictionlessdata.io/
