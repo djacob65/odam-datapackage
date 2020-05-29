@@ -1,8 +1,9 @@
 # ODAM data-package based on JSON-Schema
 
-A data package is a simple container format used to describe and package a collection of data. Defining an explicit schema for structural metadata allows machines to better interpret the data for reuse. Thus, when disseminating data, a file named ‘datapackage.json’ by convention can be added to the collection of your data files. This ‘datapackage.json’ file contains all structural metadata along with unambiguous definitions of all internal elements (e.g. column definitions, units of measurement), through links to accessible (standard) definitions.
+A datapackage is a simple container format used to describe and package a collection of data within a file named ‘datapackage.json’ by convention which can be added to the collection of your data files. 
+Thus, when disseminating data, this ‘datapackage.json’ file contains all structural metadata along with unambiguous definitions of all internal elements (e.g. column definitions, units of measurement), through links to accessible (standard) definitions, allowing machines to better interpret the data for reuse.
 
-ODAM data package schema is very close to the 'Frictionless Data' framework.
+the ODAM datapackage schema is an explicit schema for structural metadata, very close to the 'Frictionless Data' specifications on which it is based. It was develop within the ODAM project in order to fillfull the FAIR principes related to the (Re)usable criteria.
 
  * **odam-data-package.json** : JSON Schema for ODAM data package
  * **odam-data-resource.json** : JSON Schema for ODAM data resource
@@ -13,17 +14,17 @@ The ‘datapackage.json’ file can be generated directly from the ODAM API by s
 
 This repository is a part of the ODAM project. See https://inrae.github.io/odam-docs/ for more details.
 
-<a href="image/ODAM-datapackage.png"><img src="image/ODAM-datapackage.png" align="center" width="600" ></a>
+<a href="images/ODAM-datapackage.png"><img src="images/ODAM-datapackage.png" align="center" width="600" ></a>
 
-## Frictionless Data Specifications
+### Frictionless Data Specifications
 * http://specs.frictionlessdata.io/
 * https://github.com/frictionlessdata/specs/tree/master/schemas
 
 
 
-## Example of a session under R using a data package
+### Example of a session under R using a data package
 
-### json_validate: Validate a json file
+**json_validate: Validate a json file**
 * https://rdrr.io/cran/jsonvalidate/man/json_validate.html
 
 ```
