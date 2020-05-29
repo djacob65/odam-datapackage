@@ -1,4 +1,4 @@
-# ODAM data-package based on JSON-Schema
+# ODAM datapackage based on JSON-Schema
 
 A datapackage is a simple container format based on [JSON-schema](https://json-schema.org/) specifications used to describe a collection of data within a file named ‘[datapackage.json](https://datahub.io/docs/data-packages)’ by convention which can be added to the collection of your data files. Thus, when disseminating data, this ‘datapackage.json’ file contains all structural metadata along with unambiguous definitions of all internal elements (e.g. column definitions, units of measurement), through links to accessible (standard) definitions, allowing machines to better interpret the data for reuse.
 The ODAM datapackage schema is an explicit schema for structural metadata, very close to the 'Frictionless Data' specifications on which it is based. It was developed within the ODAM project in order to fulfill the FAIR principles related to the (Re)usable criteria.
@@ -9,7 +9,7 @@ The ODAM datapackage schema is an explicit schema for structural metadata, very 
  * **schema.json** : the simplest schema file for external validation
  * **datapackage.json** : example of datapackage file (frim1 dataset)
  
-The ‘datapackage.json’ file can be generated directly from the [ODAM API](https://github.com/INRA/ODAM/wiki/webservices) by specifying '/datapackage' at the end of the request. By default, the reference to the data files is relative. To have a URL as reference for the data files, it is necessary to add at the end of the request '?links=1'
+The ‘datapackage.json’ file can be generated directly from the [ODAM API](https://github.com/INRA/ODAM/wiki/webservices) by specifying '/datapackage' at the end of the request. By default, the reference to the data files is relative. To have an URL as reference for the data files, it is necessary to add at the end of the request '?links=1'
 
 <center><a href="images/ODAM-datapackage.png"><img src="images/ODAM-datapackage.png" align="center" width="600" ></a></center>
 <br><br>
