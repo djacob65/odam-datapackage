@@ -20,8 +20,9 @@ This repository is a part of the ODAM software suite. See <a href="https://inrae
 * http://specs.frictionlessdata.io/
 * https://github.com/frictionlessdata/specs/tree/master/schemas
 
-
-
+<br>
+<hr>
+<br>
 ### Example of a session under R using a data package
 
 **json_validate: Validate a json file**
