@@ -12,7 +12,7 @@ the ODAM datapackage schema is an explicit schema for structural metadata, very 
  
 The ‘datapackage.json’ file can be generated directly from the ODAM API by specifying '/datapackage' at the end of the request. By default, the reference to the data files is relative. To have a URL as reference for the data files, it is necessary to add at the end of the request '?links=1'
 
-<a href="images/ODAM-datapackage.png"><img src="images/ODAM-datapackage.png" align="center" width="600" ></a>
+<center><a href="images/ODAM-datapackage.png"><img src="images/ODAM-datapackage.png" align="center" width="600" ></a></center>
 
 This repository is a part of the ODAM project. See <a href="https://inrae.github.io/odam-docs/">ODAM: Deployment and User's Guide</a> for more details.
 
