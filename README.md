@@ -7,7 +7,7 @@ The ODAM datapackage schema is an explicit schema for structural metadata, very 
  * **odam-data-package.json** : JSON Schema for ODAM data package
  * **odam-data-resource.json** : JSON Schema for ODAM data resource
  * **schema.json** : the simplest schema file for external validation
- * **datapackage.json** : example of datapackage file (frim1 dataset)
+ * **datapackage.json** : example of datapackage file (See [FRIM dataset](https://pmb-bordeaux.fr/dataexplorer/?ds=frim1))
  
 The ‘datapackage.json’ file can be generated directly from the [ODAM API](https://github.com/INRA/ODAM/wiki/webservices) by specifying '/datapackage' at the end of the request. By default, the reference to the data files is relative. To have an URL as reference for the data files, it is necessary to add at the end of the request '?links=1'
 
