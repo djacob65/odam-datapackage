@@ -14,7 +14,7 @@ The ‘datapackage.json’ file can be generated directly from the [ODAM API](ht
 <center><a href="images/ODAM-datapackage.png"><img src="images/ODAM-datapackage.png" align="center" width="600" ></a></center>
 <br><br>
 
-This repository is a part of the ODAM project. See <a href="https://inrae.github.io/odam-docs/">ODAM - Deployment and User's Guide</a> for more details.
+This repository is a part of the ODAM software suite. See <a href="https://inrae.github.io/odam-docs/">ODAM - Deployment and User's Guide</a> for more details.
 
 ### Frictionless Data Specifications
 * http://specs.frictionlessdata.io/
