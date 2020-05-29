@@ -23,7 +23,7 @@ This repository is a part of the ODAM software suite. See <a href="https://inrae
 
 <hr>
 
-### Example of a session under R using a data package
+### Example of a R session handling a datapackage
 
 **json_validate: Validate a json file**
 * https://rdrr.io/cran/jsonvalidate/man/json_validate.html
