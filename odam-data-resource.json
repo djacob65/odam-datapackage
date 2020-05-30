@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://inrae.github.io/odam-docs/json-schema/odam-data-resource.json",
+  "$id": "https://inrae.github.io/ODAM/json-schema/odam-data-resource.json",
   "title": "odam-data-resource",
   "description": "Description of an ODAM data resource",
   "type": "object",

@@ -9,12 +9,12 @@ The ODAM datapackage schema is an explicit schema for structural metadata, very 
  * **schema.json** : the simplest schema file for external validation
  * **datapackage.json** : example of datapackage file (See [FRIM dataset](https://pmb-bordeaux.fr/dataexplorer/?ds=frim1))
  
-The ‘datapackage.json’ file can be generated directly from the [ODAM API](https://github.com/INRA/ODAM/wiki/webservices) by specifying '/datapackage' at the end of the request. By default, the reference to the data files is relative. To have an URL as reference for the data files, it is necessary to add at the end of the request '?links=1'
+The ‘datapackage.json’ file can be generated directly from the [ODAM API](https://github.com/inrae/ODAM/wiki/webservices) by specifying '/datapackage' at the end of the request. By default, the reference to the data files is relative. To have an URL as reference for the data files, it is necessary to add at the end of the request '?links=1'
 
 <center><a href="images/ODAM-datapackage.png"><img src="images/ODAM-datapackage.png" align="center" width="600" ></a></center>
 <br><br>
 
-This repository is a part of the ODAM software suite. See <a href="https://inrae.github.io/odam-docs/">ODAM - Deployment and User's Guide</a> for more details.
+This repository is a part of the ODAM software suite. See <a href="https://inrae.github.io/ODAM/">ODAM - Deployment and User's Guide</a> for more details.
 
 ### Frictionless Data Specifications
 * http://specs.frictionlessdata.io/
@@ -34,7 +34,7 @@ library(jsonvalidate)
 library(jsonlite)
 
 # Get the ODAM data package schema
-response <- GET('https://inrae.github.io/odam-docs/json-schema/odam-data-package.json', config(sslversion=6,ssl_verifypeer=1))
+response <- GET('https://inrae.github.io/ODAM/json-schema/odam-data-package.json', config(sslversion=6,ssl_verifypeer=1))
 schema <- rawToChar(response$content)
 
 # Get structural metadata information in datapackage format (json) 
