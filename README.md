@@ -83,8 +83,11 @@ metadata$resources[ "path" ]
 ! 12         https://pmb-bordeaux.fr/getdata/tsv/frim1/AminoAcid
 
 
-# Read the 'samples' data file 
-M <- read.table(url(metadata$resources[ "path" ]$path[2]), header=TRUE, sep="\t")
+# Read the 'samples' data file
+id <- 2
+M <- read.table(url(metadata$resources[ "path" ]$path[id]), 
+                header= metadata$resources$dialect$header[id], 
+                sep=metadata$resources$dialect$delimiter[id] )
 dim(M)
 ! [1] 1288   13
  
