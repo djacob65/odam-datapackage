@@ -5,6 +5,11 @@
   "description": "Description of an ODAM data package",
   "type": "object",
   "definitions": {
+    "profile": {
+      "title": "odam-data-package",
+      "description": "odam-data-package profile is an extension of the tabular-data-package profile",
+      "type": "string"
+    },
     "path": {
       "title": "Path",
       "description": "A fully qualified URL, or a POSIX file path..",
@@ -75,10 +80,7 @@
   },
   "properties": {
      "profile": {
-        "type": "string",
-        "enum": [
-            "odam-data-package"
-          ]
+        "$ref": "#/definitions/profile"
      },
      "name": {
         "$ref": "#/definitions/name"

@@ -44,7 +44,7 @@ response <- GET('https://pmb-bordeaux.fr/getdata/json/frim1/datapackage?links=1'
 json <- rawToChar(response$content)
 
 # Validate the JSON against the ODAM data package schema
-jsonvalidate::validate_json(json, schema)
+jsonvalidate::json_validate(json, schema)
 ! [1] TRUE
 
 # Parse the JSON object to a data.frame
