@@ -1,5 +1,7 @@
 # ODAM datapackage based on JSON Schema
 
+[![goodtables.io](https://goodtables.io/badge/github/djacob65/odam-datapackage.svg)](https://goodtables.io/github/djacob65/odam-datapackage)
+
 The ODAM datapackage schema is an explicit schema for structural metadata, very close to the 'Frictionless Data' specifications on which it is based. It was developed within the ODAM project in order to fulfill the FAIR principles related to the (Re)usable criteria.
 
 
