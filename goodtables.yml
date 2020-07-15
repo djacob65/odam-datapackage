@@ -1,4 +1,6 @@
 settings:
+  infer_schema: True
+  infer_fields: True
   row_limit: 2000
   checks:
     - structure
