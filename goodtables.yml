@@ -1,0 +1,10 @@
+settings:
+  row_limit: 2000
+  checks:
+    - structure
+    - schema
+    - blank-header
+    - duplicate-row
+    - missing-value
+  skip_checks:
+     unique-constraint
