@@ -10,3 +10,4 @@ settings:
     - missing-value
   skip_checks:
     - unique-constraint
+
